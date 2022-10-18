@@ -4,7 +4,7 @@ import java.util.Scanner;
  *      Use a while to calculate n! 
  *      Prompt the user for the value of n
  */
-public class Ch3Q10
+public class Ch4Q10
 {
     public static void main(String[] args){
         int n = askUserForN();
