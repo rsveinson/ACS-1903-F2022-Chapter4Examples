@@ -6,7 +6,7 @@ import java.util.Scanner;
  * 
  * Assignment:  Static Methods Re-factor example
  ************************************/
-public class ACS1903Ch5RefactorExample{
+public class ACS1903Ch4RefactorExample{
     public static void main(String[] args){
     // **** constants ****
     
