@@ -11,22 +11,29 @@ public class CalculateFactorialFinished
         int n = 0;          // this is the number used to calculate factotia
         int originalN = n;  // keep track of the original number
         int nFactorial = 1; // this is the factorials of n
-        
+
         // *** get some intput
         n = askUserForN();      // call the method to get the input
-        
+
         // Calculate the factorial
-        while (n > 0){
-            nFactorial = nFactorial * n;
-            n = n-1;
-        }// end while
-        
+        nFactorial = factorialOfN(n);
         // print the result
         System.out.println("The value of "
             +n
             +"! is: "
             +nFactorial);
     }// end main
+
+    public static int factorialOfN(int n){
+        int fact = 1;
+
+        while (n > 0){
+            fact = fact * n;
+            n = n-1;
+        }// end while
+
+        return fact;
+    }// end factiorial
 
     public static int askUserForN(){
         Scanner kb = new Scanner(System.in);
